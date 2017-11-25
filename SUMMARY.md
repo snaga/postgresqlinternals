@@ -22,3 +22,16 @@
     * pg_controlファイル
     * OID/XID/TID
     * システムカタログ
+* [MVCCとストレージ構造](chapter4/README.md)
+    * テーブルファイル
+    * テーブルのページレイアウト
+    * データ型とデータサイズ
+    * インデックス（B-Tree）ファイル
+    * B-Tree（リーフ）のページレイアウト
+    * VACUUM処理
+    * インデックスとタプルの可視性
+    * TOASTテーブル
+    * FreeSpace Map (FSM)
+    * FSMの物理レイアウト
+    * Visibility Map (VM)
+    * Visibility Mapの構造
