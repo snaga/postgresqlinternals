@@ -18,3 +18,7 @@
     * トランザクション分離レベルの定義
     * Durability（永続性）の実装
     * チェックポイント
+* [メタデータ管理](chapter3/README.md)
+    * pg_controlファイル
+    * OID/XID/TID
+    * システムカタログ
