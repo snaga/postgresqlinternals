@@ -310,9 +310,9 @@ PostgreSQLでは、「チェックポイント」と「コミット時におけ�
 
 > 永続性についての補足。
 > 
-> MySQLのInnodbでは、[https://dev.mysql.com/doc/refman/5.5/en/innodb-disk-io.html doublewrite]という方法を使って永続性を担保しています。
+> MySQLのInnodbでは、[doublewrite](https://dev.mysql.com/doc/refman/5.5/en/innodb-disk-io.html) という方法を使って永続性を担保しています。
 > 
-> これは、テーブルなどのデータブロックを変更する前に、一旦 [https://dev.mysql.com/doc/refman/5.5/en/glossary.html#glos_doublewrite_buffer doublewrite buffer] と呼ばれるテーブルスペース内の領域にデータを（時系列/continuousに）書き出し、その後に改めてテーブルのデータを変更する処理です。
+> これは、テーブルなどのデータブロックを変更する前に、一旦 [doublewrite buffer](https://dev.mysql.com/doc/refman/5.5/en/glossary.html#glos_doublewrite_buffer) と呼ばれるテーブルスペース内の領域にデータを（時系列/continuousに）書き出し、その後に改めてテーブルのデータを変更する処理です。
 > 
 > これは、PostgreSQLのトランザクションログ相当の処理をInnodb内で完結させているのと同等の処理と考えることができるでしょう。
 
