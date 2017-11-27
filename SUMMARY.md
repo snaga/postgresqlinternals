@@ -39,3 +39,8 @@
     * 共有メモリとローカルヒープ
     * Memory Context
     * 共有バッファと管理アルゴリズム
+* [ロック制御](chapter6/README.md)
+    * ロック
+    * 2-Phase Locking (2PL)
+    * デッドロックの検出と解消
+    * SpinLockとLWL
