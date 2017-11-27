@@ -35,3 +35,7 @@
     * FSMの物理レイアウト
     * Visibility Map (VM)
     * Visibility Mapの構造
+* [メモリ管理](chapter5/README.md)
+    * 共有メモリとローカルヒープ
+    * Memory Context
+    * 共有バッファと管理アルゴリズム
