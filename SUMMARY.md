@@ -65,3 +65,8 @@
     * B-Treeインデックスの構造
     * B-Treeデモ
     * GINインデックス
+* [PostgreSQLの拡張](chapter9/README.md)
+    * PostgreSQLを拡張する方法
+    * Hookによる拡張
+    * GiSTによるインデックスの拡張
+    * 参考文献・参考資料
