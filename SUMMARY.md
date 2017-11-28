@@ -52,3 +52,16 @@
     * Seq scan/Index scan実行コスト例
     * GEQO（遺伝的問い合わせ最適化）
     * 参考資料
+* [エグゼキュータ](chapter8/README.md)
+    * エグゼキュータの役割
+    * 結合処理
+    * Nested Loop Join
+    * Merge Join
+    * Hash Join
+    * インデックスの種類
+    * インデックスのアクセスメソッド
+    * B-Treeインデックスのタプル取得呼び出し
+    * B-Treeインデックスのアクセスメソッド
+    * B-Treeインデックスの構造
+    * B-Treeデモ
+    * GINインデックス
