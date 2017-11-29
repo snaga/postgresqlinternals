@@ -59,7 +59,7 @@ PostgreSQLの中では同じ行を更新したときに、違う行として書�
 ```
 testdb=# INSERT INTO t1 VALUES ( 101, 'insert 1' );
 INSERT 0 1
-testdb=# select * from t1;
+testdb=# SELECT * FROM t1;
  uid |  uname
 -----+----------
  101 | insert 1
